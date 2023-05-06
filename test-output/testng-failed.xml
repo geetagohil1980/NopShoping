@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/sidgo/IdeaProjects/NopShoping(failed)">
+    <classes>
+      <class name="LetsShopping">
+        <methods>
+          <include name="checkout"/>
+          <include name="closeBrowser"/>
+          <include name="locateProduct"/>
+          <include name="checkoutAsGuest"/>
+          <include name="payments"/>
+          <include name="shopping"/>
+        </methods>
+      </class> <!-- LetsShopping -->
+    </classes>
+  </test> <!-- C:/Users/sidgo/IdeaProjects/NopShoping(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
